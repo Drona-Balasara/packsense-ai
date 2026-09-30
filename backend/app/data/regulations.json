@@ -1,0 +1,132 @@
+[
+  {
+    "id": "REG001",
+    "material_id": "MAT001",
+    "standard": "FSSAI Food Safety and Standards (Packaging) Regulations 2018",
+    "jurisdiction": "India",
+    "status": "REVIEW",
+    "requirements": {
+      "note": "PET for food contact is referenced in Schedule materials. Specific conditions of use, migration limits, and application categories must be verified against the current Schedule and FSSAI guidance.",
+      "overall_migration_limit_mg_per_dm2": "VERIFY — see IS 9845",
+      "specific_migration": "Application-specific — verify with regulator"
+    },
+    "conditions_of_use": "Conditions of use (e.g. temperature range, food type, single-use/multi-use) must be verified for the specific packaging application.",
+    "notes": "PROTOTYPE SCREENING ONLY. This record indicates PET is a candidate material under the regulation. Final compliance determination requires legal and technical expert review. Last regulatory verification status: not independently confirmed by this prototype.",
+    "source": "SRC-FSSAI-PKG-2018",
+    "version": "2018",
+    "effective_date": "2018-09-01",
+    "last_verified": null
+  },
+  {
+    "id": "REG002",
+    "material_id": "MAT002",
+    "standard": "FSSAI Food Safety and Standards (Packaging) Regulations 2018",
+    "jurisdiction": "India",
+    "status": "REVIEW",
+    "requirements": {
+      "note": "PE (LDPE/LLDPE) for food contact is referenced in Schedule materials. Migration limits and conditions of use must be verified for the specific application and food type."
+    },
+    "conditions_of_use": "Food-contact PE grade required. Specific migration tests (IS 9845) needed for intended food and temperature conditions.",
+    "notes": "PROTOTYPE SCREENING ONLY. Same disclaimer as REG001.",
+    "source": "SRC-FSSAI-PKG-2018",
+    "version": "2018",
+    "effective_date": "2018-09-01",
+    "last_verified": null
+  },
+  {
+    "id": "REG003",
+    "material_id": "MAT003",
+    "standard": "FSSAI Food Safety and Standards (Packaging) Regulations 2018",
+    "jurisdiction": "India",
+    "status": "REVIEW",
+    "requirements": {
+      "note": "BOPP for food contact — PP materials referenced in Schedule. Application-specific verification required."
+    },
+    "conditions_of_use": "Conditions of use and migration compliance for the intended food application must be verified.",
+    "notes": "PROTOTYPE SCREENING ONLY.",
+    "source": "SRC-FSSAI-PKG-2018",
+    "version": "2018",
+    "effective_date": "2018-09-01",
+    "last_verified": null
+  },
+  {
+    "id": "REG004",
+    "material_id": "MAT004",
+    "standard": "FSSAI Food Safety and Standards (Packaging) Regulations 2018",
+    "jurisdiction": "India",
+    "status": "REVIEW",
+    "requirements": {
+      "note": "Metallised PET — the metallised layer (aluminium) is not intended as a food-contact surface in standard laminate constructions. The PET substrate compliance as per REG001 applies to its layer function. The aluminium metallisation layer must be assessed for its specific construction and intended use."
+    },
+    "conditions_of_use": "MetPET is typically a barrier middle layer, not food-contact. Regulatory assessment of the complete structure is required.",
+    "notes": "PROTOTYPE SCREENING ONLY. Regulatory status of the complete laminate structure (not just individual layers) must be verified.",
+    "source": "SRC-FSSAI-PKG-2018",
+    "version": "2018",
+    "effective_date": "2018-09-01",
+    "last_verified": null
+  },
+  {
+    "id": "REG005",
+    "material_id": "MAT005",
+    "standard": "FSSAI Food Safety and Standards (Packaging) Regulations 2018",
+    "jurisdiction": "India",
+    "status": "REVIEW",
+    "requirements": {
+      "note": "MetBOPP — similar considerations to MetPET (REG004). PP substrate compliance applies. Laminate structure assessment required."
+    },
+    "conditions_of_use": "MetBOPP is typically a non-contact barrier layer. Complete structure regulatory assessment required.",
+    "notes": "PROTOTYPE SCREENING ONLY.",
+    "source": "SRC-FSSAI-PKG-2018",
+    "version": "2018",
+    "effective_date": "2018-09-01",
+    "last_verified": null
+  },
+  {
+    "id": "REG006",
+    "material_id": "MAT006",
+    "standard": "FSSAI Food Safety and Standards (Packaging) Regulations 2018",
+    "jurisdiction": "India",
+    "status": "REVIEW",
+    "requirements": {
+      "note": "Aluminium foil in food packaging — typically used as a non-contact barrier layer in laminates (e.g. PET/AL/PE). When used as a food-contact material (e.g. aluminium trays), specific standards and migration limits apply. Application-specific verification required."
+    },
+    "conditions_of_use": "Application-specific. In PET/AL/PE laminates, aluminium is a non-contact barrier layer — assessment of the complete laminate food-contact surface (PE) applies.",
+    "notes": "PROTOTYPE SCREENING ONLY.",
+    "source": "SRC-FSSAI-PKG-2018",
+    "version": "2018",
+    "effective_date": "2018-09-01",
+    "last_verified": null
+  },
+  {
+    "id": "REG007",
+    "material_id": "MAT007",
+    "standard": "FSSAI Food Safety and Standards (Packaging) Regulations 2018",
+    "jurisdiction": "India",
+    "status": "REVIEW",
+    "requirements": {
+      "note": "PP for food contact is referenced in Schedule materials. Application-specific conditions of use verification required."
+    },
+    "conditions_of_use": "Food-grade PP required. Migration compliance for the intended food contact application and temperature must be verified.",
+    "notes": "PROTOTYPE SCREENING ONLY.",
+    "source": "SRC-FSSAI-PKG-2018",
+    "version": "2018",
+    "effective_date": "2018-09-01",
+    "last_verified": null
+  },
+  {
+    "id": "REG008",
+    "material_id": "MAT008",
+    "standard": "FSSAI Food Safety and Standards (Packaging) Regulations 2018",
+    "jurisdiction": "India",
+    "status": "REVIEW",
+    "requirements": {
+      "note": "Paper and paperboard for food contact — regulated under FSSAI Packaging Regulations. Food-grade paper specifications, heavy metal limits, and permitted additives must be verified. BIS standards for food-grade paper apply."
+    },
+    "conditions_of_use": "Food-grade kraft/paper required. Must comply with applicable BIS paper standards. Any coatings or additives require separate assessment.",
+    "notes": "PROTOTYPE SCREENING ONLY.",
+    "source": "SRC-FSSAI-PKG-2018",
+    "version": "2018",
+    "effective_date": "2018-09-01",
+    "last_verified": null
+  }
+]

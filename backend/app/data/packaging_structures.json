@@ -1,0 +1,178 @@
+[
+  {
+    "id": "PKG001",
+    "name": "PET/PE",
+    "layers": ["PET (outer)", "PE (sealant/inner)"],
+    "sealant": "PE",
+    "structure_type": "flexible_laminate",
+    "material_ids": ["MAT001", "MAT002"],
+    "food_contact_status": "review_required",
+    "food_contact_standard": "FSSAI Packaging Regulations 2018 — inner PE layer; compliance verification required for specific food application",
+    "estimated_cost_inr_low": null,
+    "estimated_cost_inr_high": null,
+    "cost_unit": "per sqm",
+    "sustainability_indicators": {
+      "recyclability": "Difficult — multi-material laminate, PE and PET separation required",
+      "biodegradability": "Not biodegradable",
+      "layer_count": 2,
+      "material_complexity": "LOW",
+      "data_status": "PROTOTYPE_ASSUMPTION"
+    },
+    "source_id": "SRC-PROTO-001",
+    "notes": "Two-layer flexible laminate. PET provides structural integrity and moderate barrier. PE provides heat-seal capability and inner food-contact surface. Suitable for moderate-barrier snack applications. OTR and WVTR of the laminate structure depend on the combined performance of both layers and any adhesive used — not reproduced here without validated data."
+  },
+  {
+    "id": "PKG002",
+    "name": "PET/MetPET/PE",
+    "layers": ["PET (outer)", "MetPET (barrier)", "PE (sealant/inner)"],
+    "sealant": "PE",
+    "structure_type": "flexible_laminate",
+    "material_ids": ["MAT001", "MAT004", "MAT002"],
+    "food_contact_status": "review_required",
+    "food_contact_standard": "FSSAI Packaging Regulations 2018 — inner PE layer; compliance verification required",
+    "estimated_cost_inr_low": null,
+    "estimated_cost_inr_high": null,
+    "cost_unit": "per sqm",
+    "sustainability_indicators": {
+      "recyclability": "Difficult — three-layer multi-material laminate",
+      "biodegradability": "Not biodegradable",
+      "layer_count": 3,
+      "material_complexity": "MEDIUM",
+      "data_status": "PROTOTYPE_ASSUMPTION"
+    },
+    "source_id": "SRC-PROTO-001",
+    "notes": "Three-layer laminate with metallised PET barrier layer. Enhanced oxygen and moisture barrier compared to plain PET/PE. Commonly used for premium snack applications where aluminium foil is cost-prohibitive. MetPET barrier performance is metallisation-quality dependent — specific OTR/WVTR values require supplier validation."
+  },
+  {
+    "id": "PKG003",
+    "name": "BOPP/PE",
+    "layers": ["BOPP (outer)", "PE (sealant/inner)"],
+    "sealant": "PE",
+    "structure_type": "flexible_laminate",
+    "material_ids": ["MAT003", "MAT002"],
+    "food_contact_status": "review_required",
+    "food_contact_standard": "FSSAI Packaging Regulations 2018 — inner PE layer; compliance verification required",
+    "estimated_cost_inr_low": null,
+    "estimated_cost_inr_high": null,
+    "cost_unit": "per sqm",
+    "sustainability_indicators": {
+      "recyclability": "Difficult — multi-material laminate",
+      "biodegradability": "Not biodegradable",
+      "layer_count": 2,
+      "material_complexity": "LOW",
+      "data_status": "PROTOTYPE_ASSUMPTION"
+    },
+    "source_id": "SRC-PROTO-001",
+    "notes": "Cost-effective two-layer laminate. BOPP provides stiffness, clarity, printability. PE provides seal. Moderate barrier — typically insufficient for high-oxidation-risk snacks without modified atmosphere or oxygen scavenger. Barrier assessment requires validated property data."
+  },
+  {
+    "id": "PKG004",
+    "name": "BOPP/MetBOPP/PE",
+    "layers": ["BOPP (outer)", "MetBOPP (barrier)", "PE (sealant/inner)"],
+    "sealant": "PE",
+    "structure_type": "flexible_laminate",
+    "material_ids": ["MAT003", "MAT005", "MAT002"],
+    "food_contact_status": "review_required",
+    "food_contact_standard": "FSSAI Packaging Regulations 2018 — inner PE layer; compliance verification required",
+    "estimated_cost_inr_low": null,
+    "estimated_cost_inr_high": null,
+    "cost_unit": "per sqm",
+    "sustainability_indicators": {
+      "recyclability": "Difficult — three-layer multi-material laminate with metallised layer",
+      "biodegradability": "Not biodegradable",
+      "layer_count": 3,
+      "material_complexity": "MEDIUM",
+      "data_status": "PROTOTYPE_ASSUMPTION"
+    },
+    "source_id": "SRC-PROTO-001",
+    "notes": "Very common Indian snack food packaging structure. BOPP outer + MetBOPP barrier + PE sealant. Cost-effective high-barrier option. Widely used for potato chips and similar snack products in India. MetBOPP barrier performance requires supplier datasheet validation."
+  },
+  {
+    "id": "PKG005",
+    "name": "PET/AL/PE",
+    "layers": ["PET (outer)", "Aluminium Foil (barrier)", "PE (sealant/inner)"],
+    "sealant": "PE",
+    "structure_type": "flexible_laminate",
+    "material_ids": ["MAT001", "MAT006", "MAT002"],
+    "food_contact_status": "review_required",
+    "food_contact_standard": "FSSAI Packaging Regulations 2018 — inner PE layer; compliance verification required",
+    "estimated_cost_inr_low": null,
+    "estimated_cost_inr_high": null,
+    "cost_unit": "per sqm",
+    "sustainability_indicators": {
+      "recyclability": "Very difficult — aluminium foil laminate, separation of layers impractical in standard recycling streams",
+      "biodegradability": "Not biodegradable",
+      "layer_count": 3,
+      "material_complexity": "HIGH",
+      "data_status": "PROTOTYPE_ASSUMPTION"
+    },
+    "source_id": "SRC-PROTO-001",
+    "notes": "High-barrier foil laminate. Aluminium foil provides near-impermeable barrier to oxygen, moisture, light, and gas. Used for products with demanding long shelf-life requirements. Higher cost and lowest recyclability of standard snack laminates. Reserve for applications where barrier requirement is critical and cannot be met by metallised films."
+  },
+  {
+    "id": "PKG006",
+    "name": "Paper/PE",
+    "layers": ["Paper/Kraft (outer)", "PE (sealant/inner)"],
+    "sealant": "PE",
+    "structure_type": "paper_based",
+    "material_ids": ["MAT008", "MAT002"],
+    "food_contact_status": "review_required",
+    "food_contact_standard": "FSSAI Packaging Regulations 2018 — inner PE layer and paper-grade compliance required",
+    "estimated_cost_inr_low": null,
+    "estimated_cost_inr_high": null,
+    "cost_unit": "per sqm",
+    "sustainability_indicators": {
+      "recyclability": "Moderate — paper stream possible but PE layer complicates separation",
+      "biodegradability": "Paper component biodegradable; PE component is not",
+      "layer_count": 2,
+      "material_complexity": "LOW",
+      "data_status": "PROTOTYPE_ASSUMPTION"
+    },
+    "source_id": "SRC-PROTO-001",
+    "notes": "Paper-based laminate with PE sealant. Low oxygen and moisture barrier — not suitable for high-oxidation-sensitivity snacks without additional barrier layers. More sustainable appearance but limited barrier capability. Suitable for low-sensitivity applications or with additional protective packaging."
+  },
+  {
+    "id": "PKG007",
+    "name": "Perforated PE Film",
+    "layers": ["Perforated PE (mono-film)"],
+    "sealant": "PE",
+    "structure_type": "perforated",
+    "material_ids": ["MAT002"],
+    "food_contact_status": "review_required",
+    "food_contact_standard": "FSSAI Packaging Regulations 2018 — PE film food-contact check required",
+    "estimated_cost_inr_low": null,
+    "estimated_cost_inr_high": null,
+    "cost_unit": "per sqm",
+    "sustainability_indicators": {
+      "recyclability": "Recyclable (PE stream)",
+      "biodegradability": "Not biodegradable under standard conditions",
+      "layer_count": 1,
+      "material_complexity": "LOW",
+      "data_status": "PROTOTYPE_ASSUMPTION"
+    },
+    "source_id": "SRC-PROTO-001",
+    "notes": "Perforated polyethylene film. Perforation density and size determine gas exchange rate. Specifically relevant for fresh produce MAP applications where O2 influx and CO2 efflux must be balanced against respiration rate. NOT suitable for products requiring oxygen barrier. Perforation specifications require optimisation against specific produce respiration data — NOT modelled with specific values in this prototype."
+  },
+  {
+    "id": "PKG008",
+    "name": "PP Macro-Perforated Film",
+    "layers": ["PP film (macro-perforated)"],
+    "sealant": "PP",
+    "structure_type": "perforated",
+    "material_ids": ["MAT007"],
+    "food_contact_status": "review_required",
+    "food_contact_standard": "FSSAI Packaging Regulations 2018 — PP film food-contact check required",
+    "estimated_cost_inr_low": null,
+    "estimated_cost_inr_high": null,
+    "cost_unit": "per sqm",
+    "sustainability_indicators": {
+      "recyclability": "Recyclable (PP stream)",
+      "biodegradability": "Not biodegradable",
+      "layer_count": 1,
+      "material_complexity": "LOW",
+      "data_status": "PROTOTYPE_ASSUMPTION"
+    },
+    "source_id": "SRC-PROTO-001",
+    "notes": "Macro-perforated PP film. Higher gas exchange rate than micro-perforated films. Suitable for high-respiration fresh produce. Perforation specifications must match produce respiration rate and storage temperature — requires produce-specific MAP analysis."
+  }
+]

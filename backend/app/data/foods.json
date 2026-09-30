@@ -1,0 +1,50 @@
+[
+  {
+    "id": "FOOD001",
+    "name": "Potato Chips",
+    "category": "snack",
+    "moisture": "LOW",
+    "fat": "HIGH",
+    "pH": null,
+    "water_activity": null,
+    "respiration_class": "NONE",
+    "oxygen_sensitivity": "HIGH",
+    "moisture_sensitivity": "HIGH",
+    "light_sensitivity": "MEDIUM",
+    "microbial_sensitivity": "LOW",
+    "source_id": "SRC-PROTO-001",
+    "notes": "Deep-fried potato snack. High fat content creates significant oxidative rancidity risk. Low water activity means microbial risk is low but moisture uptake (crispness loss) is high. Respiration is absent (processed food). All attribute levels are prototype-level qualitative classifications. pH and water_activity are null — experimental values needed."
+  },
+  {
+    "id": "FOOD002",
+    "name": "Roasted Peanuts",
+    "category": "snack",
+    "moisture": "LOW",
+    "fat": "HIGH",
+    "pH": null,
+    "water_activity": null,
+    "respiration_class": "NONE",
+    "oxygen_sensitivity": "HIGH",
+    "moisture_sensitivity": "MEDIUM",
+    "light_sensitivity": "LOW",
+    "microbial_sensitivity": "LOW",
+    "source_id": "SRC-PROTO-001",
+    "notes": "Dry-roasted peanut snack. High fat (primarily unsaturated) creates elevated oxidative rancidity risk. Moisture sensitivity is medium — peanuts can absorb moisture causing texture change and aflatoxin-related microbial risk at higher aw, but low aw post-roasting reduces this. Respiration absent. All levels are qualitative prototype classifications."
+  },
+  {
+    "id": "FOOD003",
+    "name": "Tomato",
+    "category": "fresh_produce",
+    "moisture": "HIGH",
+    "fat": "LOW",
+    "pH": null,
+    "water_activity": null,
+    "respiration_class": "CLIMACTERIC",
+    "oxygen_sensitivity": "MEDIUM",
+    "moisture_sensitivity": "LOW",
+    "light_sensitivity": "LOW",
+    "microbial_sensitivity": "HIGH",
+    "source_id": "SRC-PROTO-001",
+    "notes": "Fresh whole tomato (Solanum lycopersicum). Climacteric fruit — undergoes active respiration with ethylene-triggered ripening. High moisture content. O2/CO2 exchange is critical; MAP (modified atmosphere packaging) is relevant. High microbial sensitivity due to high moisture and surface susceptibility. Oxygen sensitivity is medium — some O2 required to avoid anaerobic conditions. Packaging MUST support gas exchange, NOT maximum barrier. All levels are qualitative prototype classifications."
+  }
+]

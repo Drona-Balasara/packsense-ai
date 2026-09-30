@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "SRC-PROTO-001",
+    "title": "PackSense AI Prototype Assumptions — Internal Engineering Baseline",
+    "publisher": "PackSense AI Development Team (eX0n_)",
+    "year": 2026,
+    "url": null,
+    "source_type": "prototype_assumption",
+    "version": "0.1.0",
+    "last_verified": "2026-09-30",
+    "evidence_quality": "NEEDS_VALIDATION",
+    "notes": "Qualitative food-profile attributes used in Phase 1 prototype. All values are working engineering assumptions pending experimental validation. DO NOT treat as experimentally verified data."
+  },
+  {
+    "source_id": "SRC-FSSAI-PKG-2018",
+    "title": "Food Safety and Standards (Packaging) Regulations, 2018",
+    "publisher": "Food Safety and Standards Authority of India (FSSAI)",
+    "year": 2018,
+    "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Packaging_Regulations.pdf",
+    "source_type": "regulatory_document",
+    "version": "2018",
+    "last_verified": "2026-09-30",
+    "evidence_quality": "HIGH",
+    "notes": "FSSAI Packaging Regulations 2018. Governs food-contact material requirements in India. Specific material listings must be checked against the current Schedule. This source is referenced for regulatory screening; referencing this source does NOT confer automatic approval for any specific material-food combination."
+  },
+  {
+    "source_id": "SRC-BIS-IS9845",
+    "title": "IS 9845: Method for Determination of Overall Migration of Constituents of Plastics Materials and Articles Intended to Come into Contact with Foodstuffs",
+    "publisher": "Bureau of Indian Standards (BIS)",
+    "year": 2014,
+    "url": "https://www.bis.gov.in",
+    "source_type": "standard",
+    "version": "2014",
+    "last_verified": "2026-09-30",
+    "evidence_quality": "HIGH",
+    "notes": "BIS test method for overall migration from plastics to food. Relevant for regulatory compliance screening of plastic packaging materials."
+  },
+  {
+    "source_id": "SRC-ROBERTSON-2013",
+    "title": "Food Packaging: Principles and Practice, 3rd Edition",
+    "publisher": "CRC Press / Taylor & Francis",
+    "year": 2013,
+    "url": null,
+    "source_type": "textbook",
+    "version": "3rd Edition",
+    "last_verified": null,
+    "evidence_quality": "HIGH",
+    "notes": "Standard reference textbook for food packaging science. General principles on barrier properties, MAP, respiration, and packaging selection. Specific numerical values require cross-referencing with this source and manufacturer data sheets."
+  },
+  {
+    "source_id": "SRC-OPTIREV-2020",
+    "title": "Packaging Material Selection for Shelf-Life Extension: A Review",
+    "publisher": "Comprehensive Reviews in Food Science and Food Safety",
+    "year": 2020,
+    "url": null,
+    "source_type": "peer_reviewed",
+    "version": null,
+    "last_verified": null,
+    "evidence_quality": "MEDIUM",
+    "notes": "Review article on packaging selection considerations for shelf-life extension. Used to inform qualitative risk and requirement rules. Individual OTR/WVTR values cited in reviews must be validated against original sources and specific material grades."
+  },
+  {
+    "source_id": "SRC-MAP-PRODUCE-2019",
+    "title": "Modified Atmosphere Packaging of Fresh Produce: A Scientific Review",
+    "publisher": "Postharvest Biology and Technology",
+    "year": 2019,
+    "url": null,
+    "source_type": "peer_reviewed",
+    "version": null,
+    "last_verified": null,
+    "evidence_quality": "MEDIUM",
+    "notes": "Reference for MAP principles applied to fresh produce including tomato. Respiration rates, O2/CO2 balance principles, and MAP film selection criteria. Numerical values in this prototype are placeholder ranges requiring validation against specific cultivar, temperature, and storage data."
+  }
+]

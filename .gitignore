@@ -1,0 +1,102 @@
+# =============================================================================
+# PackSense AI — .gitignore
+# =============================================================================
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env.bak
+
+# ── Environment variables ─────────────────────────────────────────────────────
+# IMPORTANT: .env contains secrets and MUST NOT be committed.
+# Only .env.example (safe template) is tracked.
+.env
+.env.*
+!.env.example
+
+# ── Database — runtime-generated, recreated by seed process ──────────────────
+*.db
+*.sqlite
+*.sqlite3
+packsense.db
+
+# ── Test / coverage artefacts ─────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ── Type checking / linting ───────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ── OS artefacts ──────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Node / Frontend (Phase 7+) ────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+*.tsbuildinfo
+
+# ── Temporary / scratch ───────────────────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# ── Docker (Phase 8+) ─────────────────────────────────────────────────────────
+# docker-compose.override.yml contains local secrets — do not commit
+docker-compose.override.yml
+
+# ── Explicitly tracked (never ignore these) ───────────────────────────────────
+# The lines below are documentation — git does not need them as rules,
+# but they serve as a reminder of what MUST stay in the repository:
+#
+#   .env.example          — safe environment template
+#   backend/app/data/     — JSON seed fixtures (source of truth for prototype data)
+#   backend/tests/        — test suite
+#   docs/                 — architecture and validation documentation
+#   README.md             — project documentation

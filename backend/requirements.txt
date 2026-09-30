@@ -1,0 +1,28 @@
+# PackSense AI – Backend Dependencies
+# Pin exact versions for reproducible builds.
+# Phase 1: Core framework, database, config, testing.
+# Later phases will add: numpy, pandas, scipy, scikit-learn (TOPSIS).
+
+# ── Web framework ──────────────────────────────────────────────────────────────
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# ── Data validation / settings ────────────────────────────────────────────────
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# ── Database (async SQLAlchemy + drivers) ────────────────────────────────────
+sqlalchemy==2.0.36
+aiosqlite==0.20.0          # SQLite async driver (local dev)
+asyncpg==0.30.0            # PostgreSQL async driver (production target)
+
+# ── HTTP client (for future LLM / external service integration) ────────────
+httpx==0.28.1
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.24.0
+anyio==4.7.0
+
+# ── Dev tooling ───────────────────────────────────────────────────────────────
+python-dotenv==1.0.1       # Load .env in local dev scripts
